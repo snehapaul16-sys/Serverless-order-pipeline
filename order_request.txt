@@ -1,0 +1,3 @@
+curl -X POST your API Gateway invoke URL from Step 1/orders \
+  -H "Content-Type: application/json" \
+  -d '{"order_id": "ORD-101", "customer_name": "Alice Smith", "items": [{"name": "Mechanical Keyboard", "quantity": 1}], "total": 89.99}'
